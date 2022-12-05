@@ -31,7 +31,7 @@
     height: 288px;
 }
 
-.section-width {
+.roles-section {
     width: 84%;
     margin: 0 auto;
     overflow: hidden;
@@ -147,7 +147,7 @@
 
 @media only screen and (max-width: 599px) {
 
-    .section-width {
+    .roles-section {
         width: 100%;
         margin: 0 auto;
     }
@@ -168,7 +168,7 @@
         width: 325px;
     }
 
-    .market {
+    .roles-card {
         display: flex;
         align-items: center;
         position: relative;
@@ -215,13 +215,13 @@
 }
 
 @media only screen and (min-width: 600px) and (max-width: 767px) {
-    .market {
+    .roles-card {
         display: flex;
         align-items: center;
         position: relative;
     }
 
-    .section-width {
+    .roles-section {
         width: 100%;
         margin: 0 auto;
     }
